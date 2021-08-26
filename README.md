@@ -21,7 +21,10 @@
   ## Usage
 
 
-  You can use this video to see how it works.
+  You can use this video to see how it works.- [Screencastify](https://drive.google.com/file/d/1EtI1vdYXiTZ7MvHiq-W40yfSBoz65dmt/view)<br>
+  
+  ![team-generator-gif](https://user-images.githubusercontent.com/87586398/130884898-615ac117-4bee-4110-8aaa-9bc57353ef8a.gif)
+
 
   ## Tests
 
