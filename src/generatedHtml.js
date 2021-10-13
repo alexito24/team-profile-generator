@@ -1,5 +1,4 @@
 //code to dynamically create the html
-const employeeEl = document.getElementById('employees')
 
 const generateManager = function (manager) {
     return `
@@ -12,7 +11,7 @@ const generateManager = function (manager) {
             <div class="card-body">
                 <p class="id">ID: ${manager.id}</p>
                 <p class="email">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
-                <p class="office">Office Number: ${manager.officeNumber}</p>
+                <p class="office">Office Number: ${manager.office}</p>
             </div>
         </div>
     </div>
@@ -25,12 +24,12 @@ const generateEngineer = function (engineer) {
         <div class="card h-100">
             <div class="card-header">
                 <h3>${engineer.name}</h3>
-                <h4>Manager</h4><i class="material-icons">content_paste</i>
+                <h4>Engineer</h4><i class="material-icons">integration_instructions</i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
                 <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
-                <p class="gitHub">Github: <a href="https://github.com/${engineer.gitHub}">${engineer.github}</a></p>
+                <p class="gitHub">Github: <a href="https://github.com/${engineer.gitHub}">${engineer.gitHub}</a></p>
             </div>
         </div>
     </div>
@@ -43,7 +42,7 @@ const generateIntern = function (intern) {
         <div class="card h-100">
             <div class="card-header">
                 <h3>${intern.name}</h3>
-                <h4>Manager</h4><i class="material-icons">content_paste</i>
+                <h4>Intern</h4><i class="material-icons">school</i>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
